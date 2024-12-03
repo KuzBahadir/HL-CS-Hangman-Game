@@ -28,7 +28,7 @@ public class HangmanGUI
         // Where to choose a random word from
         try 
         {
-            word = getRandomWordFromFile("words.txt"); // path for the .txt file with 854 words
+            word = getRandomWordFromFile("words.txt"); // path for the .txt file with 855 words
         } 
         catch (FileNotFoundException e) 
         {
